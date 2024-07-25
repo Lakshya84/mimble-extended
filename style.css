@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: powderblue;
+}
+
+.main{
+    height: 60%;
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    background-color: rgba(128, 196, 255, 0.324);
+}
+
+.main h2 {
+    position: absolute;
+    top: 2%;
+    font-size: large;
+    font-family: cursive;
+    color: midnightblue;
+}
+
+img{
+    position: inherit;
+    top: 12%;
+    height: 60%;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid rgb(84, 84, 210);
+    border-radius: 5px;
+}
+
+#name {
+    font-size: 20px;
+    position: absolute;
+    width: 60%;
+    top: 75%;
+    left: 25%;
+    letter-spacing: -1px;
+    font-family: helvatica;
+    color: midnightblue;
+}
+
+button{
+    background-color: white;
+    border: none;
+    letter-spacing: -0.4px;
+    font-family: helvatica;
+    font-size: large;
+    color: rgb(0, 73, 73);
+    font-weight: 600;
+}
+
+.btn{
+    position: absolute;
+    border: 2px solid rgb(10, 102, 128);
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    top: 84%;
+    border-radius: 50px;
+    height: 40px;
+    background-color: white;
+}
+
+.icon{
+    position: absolute;
+    bottom: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    font-size: 60px;
+    color: white;     
+    opacity: 0;
+    transition: transform ease 0.5s;
+}
